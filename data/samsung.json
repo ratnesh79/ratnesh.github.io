@@ -1,0 +1,92 @@
+{
+
+ "samsung" :[{
+    "id":"1",
+    "title":"A52",
+    "image":"/IMG/a52.png",
+    "price":"15555.00"
+ },
+ {
+    "id":"2",
+    "title":"A52",
+    "image":"/IMG/a52.png",
+    "price":"15555.00"
+ },
+ {
+    "id":"3",
+    "title":"A52",
+    "image":"/IMG/a52.png",
+    "price":"15555.00"
+ },
+ {
+    "id":"4",
+    "title":"A52",
+    "image":"/IMG/a52.png",
+    "price":"15555.00"
+ },
+ {
+    "id":"5",
+    "title":"A52",
+    "image":"/IMG/a52.png",
+    "price":"15555.00"
+ },
+ {
+    "id":"6",
+    "title":"A52",
+    "image":"/IMG/a52.png",
+    "price":"15555.00"
+ },
+ {
+   "id": 8,
+   "title": "Samsung A52",
+   "image": "../IMG/a52.png",
+   "price": 290,
+   "category": "Featured Products"
+},
+{
+   "id": 5,
+   "title": "Samsung A12",
+   "image": "../IMG/GA12.png ",
+   "price": 250,
+   "category": "Special Products"
+},
+
+{
+   "id": 7,
+   "title": "Samsung F42",
+   "image": "../IMG/f42.webp",
+   "price": 365,
+   "category": "Featured Products"
+},
+
+
+{
+   "id": 10,
+   "title": "NOTE20 ULTRA",
+   "image": "../IMG/note20ultra.jpg",
+   "price": 385,
+   "category": "Special Products"
+},
+{
+   "id": 11,
+   "title": "VIVO Y31",
+   "image": "../IMG/y31.jpg",
+   "price": 475,
+   "category": "Special Products"
+},
+{
+   "id": 13,
+   "title": "VIVO V20SE",
+   "image": "../IMG/v20se.png",
+   "price": 800,
+   "category": "Trending Products"
+},
+{
+   "id": 12,
+   "title": "VIVO Y50",
+   "image": "../IMG/y50.png",
+   "price": 850,
+   "category": "Special Products"
+}
+  ]
+ }

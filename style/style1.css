@@ -1,0 +1,131 @@
+:root{
+    --primaryColor:#f1f1f1;
+    --black:#222;
+    --black2:#555;
+    --black3:#252525;
+    --black4:#000;
+    --black5:#212529;
+    --orange:#eb0028;
+    --white:#fff;
+    --grey:#959595;
+    --grey2:#666;
+    --grey3:#ccc;
+    --secondary:#2b1f4d;
+    --yello:#ffcc00;
+    --green:#59b210;
+}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    font-family: 'Archivo',sans-serif;
+}
+.header{
+height: 100%;
+margin-bottom: 10px;
+}
+ 
+.item1{
+    border: 1px solid transparent;
+    padding: 50px;
+    text-align: center;
+     
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 160, 184);
+    color: white;
+}
+.container{
+    display: flex;
+}
+.section{
+    min-width: 15rem;
+    /* border: 2px solid black; */
+    height: 12rem;
+
+    background-color: rgb(213, 214, 198);
+}
+.category{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.btn {
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    background-color: rgb(35, 95, 95);
+    color: var(--primaryColor);
+  
+    width: 100%;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    transition: color .3s ease-in-out;
+    background-color: rgb(241, 219, 95);
+}
+/* .a button{
+    background-color: rgb(195, 186, 186);
+}
+.r button{
+    background-color: rgb(214, 205, 82);
+}
+.v button{
+    background-color: rgb(84, 173, 214);
+}
+.o button{
+    background-color: rgb(26, 158, 55);
+}
+.h button{
+    background-color: rgb(7, 77, 22);
+} */
+.products{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:0 8rem ;
+}
+.card{
+   
+ text-align: center;
+ /* border: 1px solid rgb(163, 159, 159); */
+ font-size: 1.1rem;
+}
+.product_header{
+    /* height: 25rem; */
+    width: 250px;
+    height: 250px;
+    padding: .5rem 0;
+    text-align: center;
+}
+.product_header img{
+    /* max-width: 80%;
+    max-height: 80%; */
+    width: 250px;
+    height: 250px;
+}
+.product_footer{
+    padding: 1rem ;
+}
+.product_footer .product_price{
+    padding-bottom: 1rem ;
+}
+.product_footer h3{
+    padding: .4rem ;
+}
+ 
+/* .product_btn{
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem ;
+    border: 1px solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+} */
